@@ -13,3 +13,9 @@ dependencies = [
 dev = [
     "pyrefly"
 ]
+[tool.pyrefly]
+project_includes = ["**/*"]
+project_excludes = [
+    "**/.[!/.]*",
+    "**/*venv/**/*",
+]
