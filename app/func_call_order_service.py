@@ -1,5 +1,4 @@
-from app.services.order_service.order_service import (CreateOrderResponse,
-                                                      OrderService)
+from app2.app.services import CreateOrderResponse, OrderService
 
 
 class FunctionCallOrderService(OrderService):

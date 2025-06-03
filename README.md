@@ -2,6 +2,8 @@
 
 This is a demo FastAPI application showcasing dependency injection using [dependency-injector](https://python-dependency-injector.ets-labs.org/).
 
+In this demo, I will try to illustrate that how we can inject dependencies into FastAPI apps with different dependency injection containers.
+
 ## A brief Introduction to Dependency Injection
 Let's say we have a component (or class) that depends on another component, such as a database connection.
 
@@ -80,7 +82,12 @@ cp .env.example .env
 
 ### Running the Application
 ```sh
-fastapi dev app/main.py
+python -m app2.app.main
+```
+
+or 
+```sh
+python -m app.main
 ```
 
 ### References

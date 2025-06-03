@@ -1,5 +1,4 @@
-from app.services.order_service.order_service import (CreateOrderResponse,
-                                                      OrderService)
+from .order_service import CreateOrderResponse, OrderService
 
 
 class HttpOrderService(OrderService):
