@@ -11,3 +11,4 @@ class AwsSettings(BaseSettings):
 class Settings(BaseSettings):
     aws: AwsSettings = AwsSettings()
     environment: str = "local"
+    order_service_type: str = "http"
