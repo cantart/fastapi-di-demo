@@ -92,3 +92,4 @@ python -m app.main
 
 ### References
 - [dependency-injector FastAPI example](https://python-dependency-injector.ets-labs.org/examples/fastapi.html)
+- [wiring with string identifiers](https://python-dependency-injector.ets-labs.org/wiring.html#string-identifiers)
