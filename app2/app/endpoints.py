@@ -31,3 +31,13 @@ async def get_aws_config(
     Get AWS configuration.
     """
     return {"aws_api_key": api_key}
+
+@router.get("/environment")
+@inject
+async def get_environment(
+    environment: str = Depends(Provide["config.environment"])
+):
+    """
+    Get the current environment.
+    """
+    return {"environment": environment}
