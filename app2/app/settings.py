@@ -6,7 +6,6 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 load_dotenv()
 
 MONO_REPO_MODE = os.getenv("MONO_REPO_MODE", "false").lower() == "true"
-print(f"MONO_REPO_MODE: {MONO_REPO_MODE}")
 
 class AwsSettings(BaseSettings):
     model_config = SettingsConfigDict(env_prefix="aws_")
